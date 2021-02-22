@@ -1,5 +1,6 @@
 #include <iostream>
 #include "symbole.h"
+#include "automate.h"
 using namesapce std;
 
 class Etat0;
@@ -23,3 +24,14 @@ public:
 protected:
 	string name;
 };
+
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+}
