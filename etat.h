@@ -2,7 +2,7 @@
 #include "symbole.h"
 using namesapce std;
 
-
+class Etat0;
 class Etat1;
 class Etat2;
 class Etat3;
