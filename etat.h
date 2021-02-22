@@ -37,4 +37,122 @@ public:
 
 protected:
 	int valeur;
-}
+};
+/******************************************************************/
+
+/*etat1's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat2's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat3's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat4's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat5's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat6's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat7's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat8's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
+
+/*etat9's constructor*/
+class etat0 : public etat{
+
+public:
+	etat0();
+	bool transition(Automate &automate, Symbole *symbole);
+	virtual int state();
+
+protected:
+	int valeur;
+};
+/******************************************************************/
