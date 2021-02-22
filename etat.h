@@ -14,6 +14,7 @@ class Etat7;
 class Etat8;
 class Etat9;
 
+/*General Etat*/
 class Etat {
 public:
 	Etat(string name);
@@ -25,6 +26,8 @@ protected:
 	string name;
 };
 
+
+/*etat0's constructor*/
 class etat0 : public etat{
 
 public:
